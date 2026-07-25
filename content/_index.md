@@ -1,7 +1,7 @@
 ---
 title: "El Caminante"
 tagline: "Sin conocimiento de su historia, sus orígenes y su cultura, el hombre es como un árbol sin raíces"
-hero_image: "/images/inicio-renacimiento.jpg"
+hero_image: "/images/inicio-banner.jpg"
 description: "El Caminante: un Ford T de 1926 y casi 100 años de historia y viajes por Argentina y Sudamérica."
 ---
 
