@@ -1,11 +1,10 @@
 {{ define "main" }}
-<section class="hero" style="background-image:url('{{ .Params.hero_image | default "/images/inicio-renacimiento.jpg" | relURL }}');">
-  <div class="hero-overlay">
-    <div class="kicker">Un Ford T con casi 100 años de historia</div>
-    <h1>{{ .Title }}</h1>
-    <p class="tagline">{{ .Params.tagline }}</p>
-  </div>
-</section>
+<section class="hero hero-plain" style="background-image:url('{{ .Params.hero_image | default "/images/inicio-banner.jpg" | relURL }}');"></section>
+
+<div class="home-intro">
+  <div class="kicker">Un Ford T con casi 100 años de historia</div>
+  <p class="tagline">{{ .Params.tagline }}</p>
+</div>
 
 <article class="prose">
   {{ .Content }}
