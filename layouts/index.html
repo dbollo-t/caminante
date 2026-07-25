@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="hero" style="background-image:url('{{ .Params.hero_image | default "/images/inicio-renacimiento.jpg" | relURL }}');">
+  <div class="hero-overlay">
+    <div class="kicker">Un Ford T con casi 100 años de historia</div>
+    <h1>{{ .Title }}</h1>
+    <p class="tagline">{{ .Params.tagline }}</p>
+  </div>
+</section>
+
+<article class="prose">
+  {{ .Content }}
+</article>
+
+<div class="teasers">
+  <div class="teaser">
+    <h3>El largo</h3>
+    <p>La Quiaca &ndash; Ushuaia. 5.418 km en Ford T, uniendo los extremos del país.</p>
+    <a class="btn" href="{{ "/viajes/el-largo/" | relURL }}">Ver el viaje →</a>
+  </div>
+  <div class="teaser">
+    <h3>El ancho</h3>
+    <p>Punta del Este &ndash; Valparaíso. Tres países, dos océanos, un auto.</p>
+    <a class="btn" href="{{ "/viajes/el-ancho/" | relURL }}">Ver el viaje →</a>
+  </div>
+  <div class="teaser">
+    <h3>El alto</h3>
+    <p>San Antonio de los Cobres &ndash; Cachi, por el Abra del Acay, a casi 5.000 metros.</p>
+    <a class="btn" href="{{ "/viajes/el-alto/" | relURL }}">Ver el viaje →</a>
+  </div>
+</div>
+<div style="height:40px"></div>
+{{ end }}
