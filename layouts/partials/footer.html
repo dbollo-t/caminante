@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <div>{{ .Site.Params.author }} &middot; <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></div>
+  <div class="contact">
+    <a href="https://api.whatsapp.com/send?phone={{ .Site.Params.whatsapp }}" target="_blank" rel="noopener">WhatsApp</a>
+    &nbsp;·&nbsp;
+    <a href="{{ .Site.Params.gallery }}" target="_blank" rel="noopener">Galería de fotos</a>
+  </div>
+  <div style="margin-top:14px; opacity:.6; font-size:.8rem;">&copy; {{ now.Year }} El Caminante — un Ford T con historia</div>
+</footer>
