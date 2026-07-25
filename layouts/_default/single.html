@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="page-hero">
+  {{ with .Params.kicker }}<div class="kicker">{{ . }}</div>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.tagline }}<p class="tagline" style="color:#e6ddc9; max-width:700px; margin:14px auto 0;">{{ . }}</p>{{ end }}
+</section>
+<article class="prose">
+  {{ .Content }}
+</article>
+{{ end }}
