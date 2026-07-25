@@ -1,0 +1,70 @@
+baseURL = "https://caminante.ar/"
+languageCode = "es"
+defaultContentLanguage = "es"
+title = "El Caminante — Ford T 1926"
+
+[minify]
+  disableJS = true
+
+[params]
+  description = "El Caminante: la historia de un Ford T de 1926 y casi 100 años de viajes por Argentina y Sudamérica"
+  author = "Daniel E. Bollo"
+  email = "dbollo@gmail.com"
+  whatsapp = "5493515322392"
+  gallery = "https://docs.google.com/presentation/d/e/2PACX-1vSndt-mpEEBj-nzYma1PBnO1K8ilU5j3EKockNINOH6vyksW36W2XT1jWvT5kMJPyWLEIZHbfVSJ7Ql/pub?start=true&loop=true&delayms=5000"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menu.main]]
+  name = "Inicio"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Viajes"
+  url = "/viajes/el-largo/"
+  weight = 2
+  identifier = "viajes"
+
+[[menu.main]]
+  name = "El largo"
+  url = "/viajes/el-largo/"
+  weight = 1
+  parent = "viajes"
+  identifier = "el-largo"
+[[menu.main]]
+  name = "Relato del viaje"
+  url = "/viajes/el-largo/relato-del-viaje/"
+  weight = 1
+  parent = "el-largo"
+
+[[menu.main]]
+  name = "El ancho"
+  url = "/viajes/el-ancho/"
+  weight = 2
+  parent = "viajes"
+
+[[menu.main]]
+  name = "El alto"
+  url = "/viajes/el-alto/"
+  weight = 3
+  parent = "viajes"
+
+[[menu.main]]
+  name = "Actividades"
+  url = "/actividades/el-abuelo-va-a-la-escuela/"
+  weight = 3
+  identifier = "actividades"
+
+[[menu.main]]
+  name = "El abuelo va a la escuela"
+  url = "/actividades/el-abuelo-va-a-la-escuela/"
+  weight = 1
+  parent = "actividades"
+
+[[menu.main]]
+  name = "Amor a primera vista"
+  url = "/actividades/amor-a-primera-vista/"
+  weight = 2
+  parent = "actividades"
