@@ -1,9 +1,18 @@
 {{ define "main" }}
+{{ if .Params.use_photo_hero }}
+<section class="hero hero-plain" style="background-image:url('{{ .Params.hero_image | default "/images/inicio-banner.jpg" | relURL }}');"></section>
+<div class="page-intro">
+  {{ with .Params.kicker }}<div class="kicker">{{ . }}</div>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
+</div>
+{{ else }}
 <section class="page-hero">
   {{ with .Params.kicker }}<div class="kicker">{{ . }}</div>{{ end }}
   <h1>{{ .Title }}</h1>
   {{ with .Params.tagline }}<p class="tagline" style="color:#e6ddc9; max-width:700px; margin:14px auto 0;">{{ . }}</p>{{ end }}
 </section>
+{{ end }}
 <article class="prose">
   {{ .Content }}
 </article>
