@@ -182,6 +182,31 @@ nav.main-nav a:hover { color: var(--brass); text-decoration: none; }
   color: var(--ink);
 }
 
+/* Intro block used below the photo-hero on pages with use_photo_hero (el ancho, el alto, amor a primera vista) */
+.page-intro {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 22px 22px 0;
+  text-align: center;
+}
+.page-intro .kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  color: var(--rust);
+  margin-bottom: 8px;
+}
+.page-intro h1 {
+  margin: 0 0 6px;
+  font-size: clamp(1.8rem, 4.6vw, 2.6rem);
+}
+.page-intro .tagline {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+
 /* Page header (non-home) */
 .page-hero {
   background: var(--ink);
@@ -252,6 +277,10 @@ figure.pic figcaption {
 figure.pic.wide {
   max-width: 100%;
   clear: both;
+}
+/* Versión más chica, para imágenes que no necesitan tanto protagonismo (p.ej. mapas) */
+figure.pic.small {
+  max-width: 200px;
 }
 @media (max-width: 640px) {
   .prose figure.pic {
