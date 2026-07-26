@@ -2,7 +2,8 @@
 title: "El alto"
 kicker: "San Antonio de los Cobres · Cachi"
 tagline: "Más fuerte, más lejos, más alto"
-hero_image: "/images/inicio-abra-del-acay.jpg"
+hero_image: "/images/inicio-banner.jpg"
+use_photo_hero: true
 ---
 
 En la Semana Santa de 2014 y junto a otros tres Ford T, transitamos el tramo de San Antonio de los Cobres a Cachi, en Salta, pasando por el punto más alto en el mundo de una ruta regular, el Abra el Acay, a casi 5.000 metros de altura. Con tubos de oxígeno para enfrentar las cuestas más pronunciadas, ninguno de los modelos T tuvieron problema en desandar ese recorrido.

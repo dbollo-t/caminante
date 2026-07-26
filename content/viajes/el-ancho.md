@@ -2,7 +2,8 @@
 title: "El ancho"
 kicker: "Punta del Este · Valparaíso"
 tagline: "Tres países, dos océanos, un auto"
-hero_image: "/images/inicio-cruce-andes.jpg"
+hero_image: "/images/inicio-banner.jpg"
+use_photo_hero: true
 ---
 
 <figure class="pic">
