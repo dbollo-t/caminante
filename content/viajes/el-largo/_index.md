@@ -6,12 +6,12 @@ tagline: "5.418 Kmts. (3.500 miles) en Ford T"
 
 <p class="stat-line">"Soñar es querer, querer es poder, poder es llegar"</p>
 
-<figure class="pic">
+<figure class="pic small">
   <img src="/images/el-largo-mapa.jpg" alt="Mapa de la ruta La Quiaca - Ushuaia" loading="lazy">
   <figcaption>La ruta: La Quiaca, San Carlos Centro, Córdoba, Ushuaia</figcaption>
 </figure>
 
-<figure class="pic">
+<figure class="pic small">
   <img src="/images/el-largo-logo-cumplido.jpg" alt="Sello La Quiaca - Ushuaia, Cumplido" loading="lazy">
 </figure>
 
@@ -25,11 +25,11 @@ Me comprenderán aquellos que abriguen, aún desde hace mucho, "locuras" cuya ev
 
 ## El heroe
 
-<figure class="pic">
+<figure class="pic wide" style="max-width: 380px; margin-left: auto; margin-right: auto;">
   <img src="/images/el-largo-hero.jpg" alt="Ford T Touring 1926, El Caminante, listo para el raid La Quiaca-Ushuaia" loading="lazy">
 </figure>
 
-Ford T Touring 1926 &middot; Motor 4 cil. 20HP &middot; Nro. 12.901.937 (fabr. el 11/12/1925) &middot; Consumo: 9,5 Kmts/litro
+<p class="stat-line">Ford T Touring 1926 &middot; Motor 4 cil. 20HP &middot; Nro. 12.901.937 (fabr. el 11/12/1925) &middot; Consumo: 9,5 Kmts/litro</p>
 
 ## El equipo
 
