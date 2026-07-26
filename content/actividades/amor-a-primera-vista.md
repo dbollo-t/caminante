@@ -2,7 +2,8 @@
 title: "Amor a primera vista"
 kicker: "Actividades · Córdoba, 1978"
 tagline: "Cómo El Caminante llegó a la familia"
-hero_image: "/images/amor-hermanos-amadei-2001.jpg"
+hero_image: "/images/inicio-banner.jpg"
+use_photo_hero: true
 ---
 
 Nuevamente estaba allí. Como muchos de los días que pasaba para ir al trabajo, estaba estacionado allí.

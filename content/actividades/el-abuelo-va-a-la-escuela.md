@@ -40,6 +40,16 @@ Los equipos comenzaron a trabajar a las 10 hs., coordinados por miembros del Clu
 
 Esta actividad, única en el país y muy posiblemente a nivel mundial, seguramente ha despertado mucho interés, pero habrá cumplido su objetivo si revaloriza una actividad educativa tan importante para el desarrollo del país como la educación técnica y, sobre todo, si reafirma la vocación de estos estudiantes por los fierros.
 
+<figure class="pic">
+  <img src="/images/escuela-sello-final.jpg" alt="Placa Ensamblado por alumnos de la Escuela Técnica Ing. Cassaffousth" loading="lazy">
+  <figcaption>La placa que quedó colocada en El Caminante</figcaption>
+</figure>
+
+<figure class="pic">
+  <img src="/images/escuela-grupo-final.jpg" alt="Estudiantes y miembros del Club junto a El Caminante ya armado" loading="lazy">
+  <figcaption>El grupo completo, al finalizar la jornada</figcaption>
+</figure>
+
 <div class="cta-row">
   <a class="btn" href="/actividades/amor-a-primera-vista/">Amor a primera vista →</a>
 </div>
