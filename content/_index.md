@@ -93,9 +93,19 @@ Así, El Caminante comenzó su marcha de regreso a los caminos, trabajando en su
 
 Y mientras aflojaba tornillos, lamentando sus golpes y roturas, escucho que repite: "Si pensaban que estaba acabado se equivocan, recién comienzo a tomar impulso. Estoy herido, no vencido". Es entonces cuando apuraba la faena.
 
+<figure class="pic">
+  <img src="/images/inicio-viejo-arreglando.jpg" alt="Daniel Bollo reparando piezas del chasis durante la restauración post-accidente" loading="lazy">
+  <figcaption>Aflojando tornillos, en plena reparación</figcaption>
+</figure>
+
 El Caminante asistió a todos los encuentros organizados por el Primer Club del Ford T de Argentina, desde 1996. Como no podía ser de otra forma, y aún incompleto, no faltó al Encuentro de Octubre de 2020, en plena pandemia y cumpliéndose un año luego del accidente.
 
 Por fín, el 19 de Agosto de 2021, El Caminante renació completo. Gracias a todos los que acompañaron el proceso de reparación, especialmente a José y Guillermo de MCN Restauraciones.
+
+<figure class="pic">
+  <img src="/images/inicio-renacimiento.jpg" alt="El Caminante renacido completo, agosto de 2021" loading="lazy">
+  <figcaption>El Caminante, renacido completo, agosto de 2021</figcaption>
+</figure>
 
 <div class="cta-row">
   <a class="btn primary" href="/viajes/el-largo/">El largo →</a>
