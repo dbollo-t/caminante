@@ -93,7 +93,7 @@ nav.main-nav > ul > li > .top-label {
 nav.main-nav a:hover { color: var(--brass); text-decoration: none; }
 
 .dropdown { position: relative; }
-.dropdown > a { cursor: pointer; }
+.dropdown > a, .dropdown > .top-label { cursor: pointer; }
 .dropdown .menu {
   display: none;
   position: absolute;
