@@ -19,5 +19,34 @@
 {{ block "main" . }}{{ end }}
 </main>
 {{ partial "footer.html" . }}
+<script>
+(function () {
+  document.querySelectorAll('.dropdown > .top-label').forEach(function (label) {
+    label.setAttribute('tabindex', '0');
+    label.setAttribute('role', 'button');
+    function toggle() {
+      var parent = label.closest('.dropdown');
+      var wasOpen = parent.classList.contains('open');
+      document.querySelectorAll('.dropdown.open').forEach(function (d) { d.classList.remove('open'); });
+      if (!wasOpen) parent.classList.add('open');
+    }
+    label.addEventListener('click', function (e) {
+      e.stopPropagation();
+      toggle();
+    });
+    label.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggle();
+      }
+    });
+  });
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.dropdown')) {
+      document.querySelectorAll('.dropdown.open').forEach(function (d) { d.classList.remove('open'); });
+    }
+  });
+})();
+</script>
 </body>
 </html>
