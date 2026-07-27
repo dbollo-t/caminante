@@ -9,6 +9,7 @@
   --rust-dark: #7e3216;
   --brass: #b98a3e;
   --line: #e2d8c3;
+  --blue: #2a5a8c;
   --maxw: 880px;
 }
 
@@ -172,7 +173,7 @@ nav.main-nav a:hover { color: var(--brass); text-decoration: none; }
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.75rem;
-  color: var(--rust);
+  color: var(--blue);
   margin-bottom: 8px;
 }
 .home-intro .tagline {
@@ -250,7 +251,7 @@ main { background: var(--paper); }
 
 /* Fotos chicas envueltas por el texto, como en el sitio original */
 figure.pic {
-  max-width: 300px;
+  max-width: 375px;
   margin: 0.3em 0 1.1em;
 }
 figure.pic img {
@@ -298,9 +299,10 @@ figure.pic.small {
   clear: both;
 }
 .pic-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+.pic-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
 .pic-grid img { border-radius: 4px; box-shadow: 0 6px 16px rgba(43,36,32,0.16); }
 @media (max-width: 640px) {
-  .pic-grid.cols-4 { grid-template-columns: repeat(2, 1fr); }
+  .pic-grid.cols-4, .pic-grid.cols-3 { grid-template-columns: repeat(2, 1fr); }
 }
 
 .team-grid {
@@ -329,6 +331,7 @@ figure.pic.small {
 
 .video-embed {
   position: relative;
+  width: 480px;
   max-width: 480px;
   padding-top: calc(480px * 0.5625);
   margin: 0.3em 24px 1.2em 0;
@@ -343,6 +346,7 @@ figure.pic.small {
 @media (max-width: 640px) {
   .video-embed {
     float: none;
+    width: 100%;
     max-width: 100%;
     padding-top: 56.25%;
     margin: 1.2em 0;
