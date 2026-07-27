@@ -44,8 +44,8 @@ Para traerlo a Córdoba no se me había ocurrido buscarlo con un acoplado o trai
 Una rápida y no muy entusiasta clase teórica de conducción y regulaciones de encendido y carburación bastaron para la poca paciencia del vendedor y la ansiedad del comprador. Y así, corcoveando y tosiendo, regresamos al pueblo de mi suegro para fabricar con una cinta de ventana de enrollar la correa plana del ventilador, que faltaba.
 
 <figure class="pic">
-  <img src="/images/amor-recien-llegado.jpg" alt="Daniel Bollo al volante de El Caminante, pocos días después de comprarlo y traerlo a Córdoba" loading="lazy">
-  <figcaption>A pocos días de haberlo comprado y traído a Córdoba</figcaption>
+  <img src="/images/amor-recien-llegado.jpg" alt="Daniel Bollo al volante de El Caminante, pocos días después de comprarlo y traerlo a Córdoba, junto a su abuelo paterno" loading="lazy">
+  <figcaption>A pocos días de haberlo comprado y traído a Córdoba, junto a mi abuelo paterno</figcaption>
 </figure>
 
 Más de trescientos kilómetros y diez horas después, cansado pero feliz, llegábamos a Córdoba en tres cilindros, ya que no sabía regular las bobinas de encendido. Ya estaba El Caminante en su nueva casa.
